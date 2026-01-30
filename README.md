@@ -35,7 +35,7 @@ The system utilizes a state-machine orchestrator to manage the feeding cycle:
     Place the `sam2_streaming` repository inside the `raf-hi` folder. Follow the installation steps provided in the [SAM2 Real-Time repository](https://github.com/Gy920/segment-anything-2-real-time/tree/main) to set up the segmentation engine.
 
 3.  **Python Dependencies**:
-    Activate your conda environment and install the required packages:
+    Activate your virtual environment and install the required packages:
     ```bash
     source ~/deploy-env/bin/activate
     pip install pygame numpy pyyaml mediapipe
